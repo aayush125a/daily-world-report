@@ -53,24 +53,32 @@ def get_session_status():
     return lines
 
 def fetch_quotes():
-    symbols = ",".join(PAIRS)
-    url = f"https://api.twelvedata.com/price?symbol={symbols}&apikey={API_KEY}"
-    try:
-        r = requests.get(url, timeout=15)
-        data = r.json()
-        return data
-    except Exception as e:
-        return {}
+    """Fetch prices one by one to avoid free tier batch limits"""
+    results = {}
+    for pair in PAIRS:
+        try:
+            url = f"https://api.twelvedata.com/price?symbol={pair}&apikey={API_KEY}"
+            r = requests.get(url, timeout=10)
+            data = r.json()
+            if "price" in data:
+                results[pair] = {"price": data["price"]}
+        except:
+            pass
+    return results
 
 def fetch_quote_details():
-    """Fetch detailed quote with % change, high, low"""
-    symbols = ",".join(PAIRS[:20])  # Twelve Data free tier limit per call
-    url = f"https://api.twelvedata.com/quote?symbol={symbols}&apikey={API_KEY}"
-    try:
-        r = requests.get(url, timeout=15)
-        return r.json()
-    except:
-        return {}
+    """Fetch detailed quote one by one"""
+    results = {}
+    for pair in PAIRS:
+        try:
+            url = f"https://api.twelvedata.com/quote?symbol={pair}&apikey={API_KEY}"
+            r = requests.get(url, timeout=10)
+            data = r.json()
+            if "close" in data:
+                results[pair] = data
+        except:
+            pass
+    return results
 
 def get_flag(pair):
     flags = {
