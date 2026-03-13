@@ -2,9 +2,9 @@ name: 📊 Forex Dashboard Auto-Update
 
 on:
   schedule:
-    # 🥇 Best forex times — just before major session opens
-    - cron: '0 7 * * 1-5'   # 07:00 UTC — 15 mins before London open (Mon–Fri)
-    - cron: '30 12 * * 1-5' # 12:30 UTC — 30 mins before NY open + London overlap (Mon–Fri)
+    # 2x daily — exactly at the 2 biggest market opens
+    - cron: '0 8  * * *'  # 🇬🇧 London open  — 08:00 UTC (01:45 PM NPT)
+    - cron: '0 13 * * *'  # 🇺🇸 New York open — 13:00 UTC (06:45 PM NPT)
   workflow_dispatch:         # Allows manual trigger from GitHub UI
 
 permissions:
