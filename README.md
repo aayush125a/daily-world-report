@@ -1,6 +1,6 @@
 # 📊 Live Forex Dashboard — Auto-Updated 2x Daily
 
-> 🤖 Auto-committed by GitHub Actions • Last updated: **2026-03-27 14:06 UTC** (2026-03-27 07:36 PM IST)
+> 🤖 Auto-committed by GitHub Actions • Last updated: **2026-03-28 08:41 UTC** (2026-03-28 02:11 PM IST)
 > 
 > *"Markets are never wrong — opinions often are."* — Jesse Livermore
 
@@ -10,10 +10,10 @@
 
 | Session | Hours (UTC) | Local Time | Status |
 |---------|-------------|------------|--------|
-| 🗼 Tokyo | 00:00 – 09:00 UTC | 11:06 PM | 🔴 Closed |
-| 🇬🇧 London | 08:00 – 17:00 UTC | 02:06 PM | 🟢 **OPEN** |
-| 🇺🇸 New York | 13:00 – 22:00 UTC | 10:06 AM | 🟢 **OPEN** |
-| 🇦🇺 Sydney | 22:00 – 07:00 UTC | 01:06 AM | 🔴 Closed |
+| 🗼 Tokyo | 00:00 – 09:00 UTC | 05:41 PM | 🟢 **OPEN** |
+| 🇬🇧 London | 08:00 – 17:00 UTC | 08:41 AM | 🟢 **OPEN** |
+| 🇺🇸 New York | 13:00 – 22:00 UTC | 04:41 AM | 🔴 Closed |
+| 🇦🇺 Sydney | 22:00 – 07:00 UTC | 07:41 PM | 🔴 Closed |
 
 
 ## 🔥 Best Times to Trade (Session Overlaps)
@@ -31,14 +31,14 @@
 
 | Pair | Price | Day High | Day Low | Change | Sentiment |
 |------|-------|----------|---------|--------|-----------|
-| 🇪🇺🇺🇸 EUR/USD | `1.15306` | — | — | — | — |
-| 🇬🇧🇺🇸 GBP/USD | `1.33055` | — | — | — | — |
-| 🇺🇸🇯🇵 USD/JPY | `159.87` | — | — | — | — |
-| 🇺🇸🇨🇭 USD/CHF | `0.79577` | — | — | — | — |
-| 🇦🇺🇺🇸 AUD/USD | `0.68919` | — | — | — | — |
-| 🇺🇸🇨🇦 USD/CAD | `1.38549` | — | — | — | — |
-| 🇳🇿🇺🇸 NZD/USD | `0.57600` | — | — | — | — |
-| 🇪🇺🇬🇧 EUR/GBP | `0.86656` | — | — | — | — |
+| 🇪🇺🇺🇸 EUR/USD | `1.15103` | — | — | — | — |
+| 🇬🇧🇺🇸 GBP/USD | `1.32608` | — | — | — | — |
+| 🇺🇸🇯🇵 USD/JPY | `160.32` | — | — | — | — |
+| 🇺🇸🇨🇭 USD/CHF | `0.79840` | — | — | — | — |
+| 🇦🇺🇺🇸 AUD/USD | `0.68776` | — | — | — | — |
+| 🇺🇸🇨🇦 USD/CAD | `1.38928` | — | — | — | — |
+| 🇳🇿🇺🇸 NZD/USD | `0.57450` | — | — | — | — |
+| 🇪🇺🇬🇧 EUR/GBP | `0.86799` | — | — | — | — |
 | 🇪🇺🇯🇵 EUR/JPY | — | — | — | — | — |
 | 🇬🇧🇯🇵 GBP/JPY | — | — | — | — | — |
 | 🇦🇺🇯🇵 AUD/JPY | — | — | — | — | — |
