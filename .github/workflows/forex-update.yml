@@ -38,8 +38,8 @@ jobs:
 
       - name: ✅ Commit & Push Updated Dashboard
         run: |
-          git config --global user.name "forex-bot[bot]"
-          git config --global user.email "forex-bot@users.noreply.github.com"
+          git config --global user.name "aayush125a"
+          git config --global user.email "adhikariaayush125@gmail.com"
           git add README.md
           git diff --staged --quiet || git commit -m "📊 Forex update: $(date +'%Y-%m-%d %H:%M UTC') — prices & session status refreshed"
           git push
