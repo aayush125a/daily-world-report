@@ -2,10 +2,9 @@ name: 📊 Forex Dashboard Auto-Update
 
 on:
   schedule:
-    # 2x daily — exactly at the 2 biggest market opens
-    - cron: '0 8  * * *'  # 🇬🇧 London open  — 08:00 UTC (01:45 PM NPT)
+    - cron: '0 8  * * *'  # 🇬🇧 London open — 08:00 UTC (01:45 PM NPT)
     - cron: '0 13 * * *'  # 🇺🇸 New York open — 13:00 UTC (06:45 PM NPT)
-  workflow_dispatch:         # Allows manual trigger from GitHub UI
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -41,7 +40,7 @@ jobs:
           git config --global user.name "aayush125a"
           git config --global user.email "adhikariaayush125@gmail.com"
           git add README.md
-          git diff --staged --quiet || git commit -m "📊 Forex update: $(date +'%Y-%m-%d %H:%M UTC') — prices & session status refreshed"
+          git commit -m "📊 Forex update: $(date +'%Y-%m-%d %H:%M UTC') — prices & session status refreshed"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
