@@ -5,31 +5,21 @@ import pytz
 
 API_KEY = os.environ.get("TWELVE_DATA_API_KEY", "demo")
 
-# ─────────────────────────────────────────────
-# ALL MAJOR + TRENDING CURRENCY PAIRS
-# ─────────────────────────────────────────────
 PAIRS = [
-    # Majors
     "EUR/USD", "GBP/USD", "USD/JPY", "USD/CHF",
     "AUD/USD", "USD/CAD", "NZD/USD",
-    # Crosses
     "EUR/GBP", "EUR/JPY", "GBP/JPY", "AUD/JPY",
     "EUR/AUD", "GBP/AUD", "EUR/CAD",
-    # Exotics
     "USD/TRY", "USD/ZAR", "USD/MXN", "USD/SGD",
     "USD/HKD", "USD/NOK", "USD/SEK",
-    # Commodities (treated as pairs)
-    "XAU/USD",  # Gold
-    "XAG/USD",  # Silver
+    "XAU/USD",
+    "XAG/USD",
 ]
 
-# ─────────────────────────────────────────────
-# MARKET SESSION TIMES (UTC)
-# ─────────────────────────────────────────────
 SESSIONS = {
-    "🗼 Tokyo":   {"open": "00:00", "close": "09:00", "tz": "Asia/Tokyo"},
+    "🗼 Tokyo":    {"open": "00:00", "close": "09:00", "tz": "Asia/Tokyo"},
     "🇬🇧 London":  {"open": "08:00", "close": "17:00", "tz": "Europe/London"},
-    "🇺🇸 New York": {"open": "13:00", "close": "22:00", "tz": "America/New_York"},
+    "🇺🇸 New York":{"open": "13:00", "close": "22:00", "tz": "America/New_York"},
     "🇦🇺 Sydney":  {"open": "22:00", "close": "07:00", "tz": "Australia/Sydney"},
 }
 
@@ -44,7 +34,7 @@ def get_session_status():
         ch, cm = map(int, info["close"].split(":"))
         open_dec = oh + om / 60
         close_dec = ch + cm / 60
-        if close_dec < open_dec:  # crosses midnight
+        if close_dec < open_dec:
             is_open = current_hour >= open_dec or current_hour < close_dec
         else:
             is_open = open_dec <= current_hour < close_dec
@@ -53,7 +43,6 @@ def get_session_status():
     return lines
 
 def fetch_quotes():
-    """Fetch prices one by one to avoid free tier batch limits"""
     results = {}
     for pair in PAIRS:
         try:
@@ -67,7 +56,6 @@ def fetch_quotes():
     return results
 
 def fetch_quote_details():
-    """Fetch detailed quote one by one"""
     results = {}
     for pair in PAIRS:
         try:
@@ -97,10 +85,12 @@ def build_readme(prices, details):
     ist = pytz.timezone("Asia/Kolkata")
     ist_time = utc_now.astimezone(ist).strftime("%Y-%m-%d %I:%M %p IST")
 
+    # ✅ Always-changing — guarantees green dot every single run
+    run_id = utc_now.strftime("%Y%m%d%H%M%S")
+
     session_rows = get_session_status()
     session_table = "\n".join(session_rows)
 
-    # Build pairs table
     pair_rows = []
     for pair in PAIRS:
         flag = get_flag(pair)
@@ -139,7 +129,6 @@ def build_readme(prices, details):
 
     pairs_table = "\n".join(pair_rows)
 
-    # Key tips section
     tips = """
 ## 📚 Forex Trader's Daily Checklist
 
@@ -185,7 +174,9 @@ def build_readme(prices, details):
     readme = f"""# 📊 Live Forex Dashboard — Auto-Updated 2x Daily
 
 > 🤖 Auto-committed by GitHub Actions • Last updated: **{timestamp}** ({ist_time})
-> 
+>
+> 🔄 Run ID: `{run_id}` — _(guarantees daily commit streak)_
+>
 > *"Markets are never wrong — opinions often are."* — Jesse Livermore
 
 ---
@@ -206,7 +197,7 @@ def build_readme(prices, details):
 |------|-------|----------|---------|--------|-----------|
 {pairs_table}
 
-> 📡 Data sourced from [Twelve Data](https://twelvedata.com) • Prices update 2x daily at 08:00 & 20:00 UTC
+> 📡 Data sourced from [Twelve Data](https://twelvedata.com) • Prices update 2x daily at 08:00 & 13:00 UTC
 
 ---
 
@@ -236,7 +227,7 @@ def build_readme(prices, details):
 
 ## 🧠 Quick Forex Wisdom
 
-```
+\`\`\`
 📌 Risk no more than 1-2% per trade
 📌 The trend is your friend — until it ends
 📌 Cut losses short, let winners run
@@ -247,7 +238,7 @@ def build_readme(prices, details):
 📌 High VIX → JPY and CHF strengthen (safe havens)
 📌 NFP (First Friday of month) = highest volatility
 📌 Never average down on a losing trade
-```
+\`\`\`
 
 ---
 
