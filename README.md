@@ -1,7 +1,9 @@
 # 📊 Live Forex Dashboard — Auto-Updated 2x Daily
 
-> 🤖 Auto-committed by GitHub Actions • Last updated: **2026-04-14 09:20 UTC** (2026-04-14 02:50 PM IST)
-> 
+> 🤖 Auto-committed by GitHub Actions • Last updated: **2026-04-14 11:50 UTC** (2026-04-14 05:20 PM IST)
+>
+> 🔄 Run ID: `20260414115011` — _(guarantees daily commit streak)_
+>
 > *"Markets are never wrong — opinions often are."* — Jesse Livermore
 
 ---
@@ -10,10 +12,10 @@
 
 | Session | Hours (UTC) | Local Time | Status |
 |---------|-------------|------------|--------|
-| 🗼 Tokyo | 00:00 – 09:00 UTC | 06:20 PM | 🔴 Closed |
-| 🇬🇧 London | 08:00 – 17:00 UTC | 10:20 AM | 🟢 **OPEN** |
-| 🇺🇸 New York | 13:00 – 22:00 UTC | 05:20 AM | 🔴 Closed |
-| 🇦🇺 Sydney | 22:00 – 07:00 UTC | 07:20 PM | 🔴 Closed |
+| 🗼 Tokyo | 00:00 – 09:00 UTC | 08:50 PM | 🔴 Closed |
+| 🇬🇧 London | 08:00 – 17:00 UTC | 12:50 PM | 🟢 **OPEN** |
+| 🇺🇸 New York | 13:00 – 22:00 UTC | 07:50 AM | 🔴 Closed |
+| 🇦🇺 Sydney | 22:00 – 07:00 UTC | 09:50 PM | 🔴 Closed |
 
 
 ## 🔥 Best Times to Trade (Session Overlaps)
@@ -31,14 +33,14 @@
 
 | Pair | Price | Day High | Day Low | Change | Sentiment |
 |------|-------|----------|---------|--------|-----------|
-| 🇪🇺🇺🇸 EUR/USD | `1.17886` | — | — | — | — |
-| 🇬🇧🇺🇸 GBP/USD | `1.35413` | — | — | — | — |
-| 🇺🇸🇯🇵 USD/JPY | `158.88` | — | — | — | — |
-| 🇺🇸🇨🇭 USD/CHF | `0.78033` | — | — | — | — |
-| 🇦🇺🇺🇸 AUD/USD | `0.71065` | — | — | — | — |
-| 🇺🇸🇨🇦 USD/CAD | `1.37651` | — | — | — | — |
-| 🇳🇿🇺🇸 NZD/USD | `0.58919` | — | — | — | — |
-| 🇪🇺🇬🇧 EUR/GBP | `0.87056` | — | — | — | — |
+| 🇪🇺🇺🇸 EUR/USD | `1.18015` | — | — | — | — |
+| 🇬🇧🇺🇸 GBP/USD | `1.35746` | — | — | — | — |
+| 🇺🇸🇯🇵 USD/JPY | `158.78` | — | — | — | — |
+| 🇺🇸🇨🇭 USD/CHF | `0.78031` | — | — | — | — |
+| 🇦🇺🇺🇸 AUD/USD | `0.71268` | — | — | — | — |
+| 🇺🇸🇨🇦 USD/CAD | `1.37487` | — | — | — | — |
+| 🇳🇿🇺🇸 NZD/USD | `0.59029` | — | — | — | — |
+| 🇪🇺🇬🇧 EUR/GBP | `0.86935` | — | — | — | — |
 | 🇪🇺🇯🇵 EUR/JPY | — | — | — | — | — |
 | 🇬🇧🇯🇵 GBP/JPY | — | — | — | — | — |
 | 🇦🇺🇯🇵 AUD/JPY | — | — | — | — | — |
@@ -55,7 +57,7 @@
 | 🥇🇺🇸 XAU/USD | — | — | — | — | — |
 | 🥈🇺🇸 XAG/USD | — | — | — | — | — |
 
-> 📡 Data sourced from [Twelve Data](https://twelvedata.com) • Prices update 2x daily at 08:00 & 20:00 UTC
+> 📡 Data sourced from [Twelve Data](https://twelvedata.com) • Prices update 2x daily at 08:00 & 13:00 UTC
 
 ---
 
@@ -113,7 +115,7 @@
 
 ## 🧠 Quick Forex Wisdom
 
-```
+\`\`\`
 📌 Risk no more than 1-2% per trade
 📌 The trend is your friend — until it ends
 📌 Cut losses short, let winners run
@@ -124,7 +126,7 @@
 📌 High VIX → JPY and CHF strengthen (safe havens)
 📌 NFP (First Friday of month) = highest volatility
 📌 Never average down on a losing trade
-```
+\`\`\`
 
 ---
 
