@@ -2,8 +2,10 @@ import requests
 import os
 from datetime import datetime, timezone
 import pytz
+from pymongo import MongoClient
 
 API_KEY = os.environ.get("TWELVE_DATA_API_KEY", "demo")
+MONGODB_URI = os.environ.get("MONGODB_URI", "")
 
 PAIRS = [
     "EUR/USD", "GBP/USD", "USD/JPY", "USD/CHF",
@@ -22,6 +24,49 @@ SESSIONS = {
     "🇺🇸 New York":{"open": "13:00", "close": "22:00", "tz": "America/New_York"},
     "🇦🇺 Sydney":  {"open": "22:00", "close": "07:00", "tz": "Australia/Sydney"},
 }
+
+def save_to_mongodb(prices, details):
+    """Save current prices to MongoDB for historical tracking"""
+    if not MONGODB_URI:
+        print("⚠️ No MongoDB URI found, skipping database save")
+        return
+    try:
+        client = MongoClient(MONGODB_URI)
+        db = client["forex_dashboard"]
+        collection = db["price_history"]
+        utc_now = datetime.now(timezone.utc)
+        records = []
+        for pair in PAIRS:
+            detail = details.get(pair, {})
+            price = None
+            change_pct = None
+            if isinstance(detail, dict) and "close" in detail:
+                try:
+                    price = float(detail.get("close", 0))
+                    open_p = float(detail.get("open", price))
+                    change_pct = ((price - open_p) / open_p) * 100 if open_p else 0
+                except:
+                    pass
+            elif isinstance(prices.get(pair), dict):
+                try:
+                    price = float(prices[pair]["price"])
+                except:
+                    pass
+            if price:
+                records.append({
+                    "pair": pair,
+                    "price": price,
+                    "change_pct": change_pct,
+                    "timestamp": utc_now,
+                    "date": utc_now.strftime("%Y-%m-%d"),
+                    "time": utc_now.strftime("%H:%M UTC")
+                })
+        if records:
+            collection.insert_many(records)
+            print(f"✅ Saved {len(records)} price records to MongoDB")
+        client.close()
+    except Exception as e:
+        print(f"⚠️ MongoDB error: {e}")
 
 def get_session_status():
     utc_now = datetime.now(timezone.utc)
@@ -84,8 +129,6 @@ def build_readme(prices, details):
     timestamp = utc_now.strftime("%Y-%m-%d %H:%M UTC")
     ist = pytz.timezone("Asia/Kolkata")
     ist_time = utc_now.astimezone(ist).strftime("%Y-%m-%d %I:%M %p IST")
-
-    # ✅ Always-changing — guarantees green dot every single run
     run_id = utc_now.strftime("%Y%m%d%H%M%S")
 
     session_rows = get_session_status()
@@ -256,6 +299,8 @@ if __name__ == "__main__":
     print("📡 Fetching forex data...")
     prices = fetch_quotes()
     details = fetch_quote_details()
+    print("💾 Saving to MongoDB...")
+    save_to_mongodb(prices, details)
     readme_content = build_readme(prices, details)
     with open("README.md", "w", encoding="utf-8") as f:
         f.write(readme_content)
