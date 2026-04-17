@@ -28,10 +28,11 @@ jobs:
       - name: 📦 Install Dependencies
         run: |
           pip install -r requirements.txt
+
       - name: 📡 Fetch Forex Data & Update README
         env:
           TWELVE_DATA_API_KEY: ${{ secrets.TWELVE_DATA_API_KEY }}
-            MONGODB_URI: ${{ secrets.MONGODB_URI }}
+          MONGODB_URI: ${{ secrets.MONGODB_URI }}
         run: |
           python update_forex.py
 
