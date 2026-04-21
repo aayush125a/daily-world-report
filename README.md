@@ -1,8 +1,8 @@
 # 📊 Live Forex Dashboard — Auto-Updated 2x Daily
 
-> 🤖 Auto-committed by GitHub Actions • Last updated: **2026-04-21 09:19 UTC** (2026-04-21 02:49 PM IST)
+> 🤖 Auto-committed by GitHub Actions • Last updated: **2026-04-21 14:44 UTC** (2026-04-21 08:14 PM IST)
 >
-> 🔄 Run ID: `20260421091913` — _(guarantees daily commit streak)_
+> 🔄 Run ID: `20260421144445` — _(guarantees daily commit streak)_
 >
 > *"Markets are never wrong — opinions often are."* — Jesse Livermore
 
@@ -12,10 +12,10 @@
 
 | Session | Hours (UTC) | Local Time | Status |
 |---------|-------------|------------|--------|
-| 🗼 Tokyo | 00:00 – 09:00 UTC | 06:19 PM | 🔴 Closed |
-| 🇬🇧 London | 08:00 – 17:00 UTC | 10:19 AM | 🟢 **OPEN** |
-| 🇺🇸 New York | 13:00 – 22:00 UTC | 05:19 AM | 🔴 Closed |
-| 🇦🇺 Sydney | 22:00 – 07:00 UTC | 07:19 PM | 🔴 Closed |
+| 🗼 Tokyo | 00:00 – 09:00 UTC | 11:44 PM | 🔴 Closed |
+| 🇬🇧 London | 08:00 – 17:00 UTC | 03:44 PM | 🟢 **OPEN** |
+| 🇺🇸 New York | 13:00 – 22:00 UTC | 10:44 AM | 🟢 **OPEN** |
+| 🇦🇺 Sydney | 22:00 – 07:00 UTC | 12:44 AM | 🔴 Closed |
 
 
 ## 🔥 Best Times to Trade (Session Overlaps)
@@ -33,14 +33,14 @@
 
 | Pair | Price | Day High | Day Low | Change | Sentiment |
 |------|-------|----------|---------|--------|-----------|
-| 🇪🇺🇺🇸 EUR/USD | `1.17599` | — | — | — | — |
-| 🇬🇧🇺🇸 GBP/USD | `1.35013` | — | — | — | — |
-| 🇺🇸🇯🇵 USD/JPY | `159.21` | — | — | — | — |
-| 🇺🇸🇨🇭 USD/CHF | `0.78029` | — | — | — | — |
-| 🇦🇺🇺🇸 AUD/USD | `0.71519` | — | — | — | — |
-| 🇺🇸🇨🇦 USD/CAD | `1.36606` | — | — | — | — |
-| 🇳🇿🇺🇸 NZD/USD | `0.59010` | — | — | — | — |
-| 🇪🇺🇬🇧 EUR/GBP | `0.87103` | — | — | — | — |
+| 🇪🇺🇺🇸 EUR/USD | `1.17729` | — | — | — | — |
+| 🇬🇧🇺🇸 GBP/USD | `1.35351` | — | — | — | — |
+| 🇺🇸🇯🇵 USD/JPY | `159.09` | — | — | — | — |
+| 🇺🇸🇨🇭 USD/CHF | `0.77857` | — | — | — | — |
+| 🇦🇺🇺🇸 AUD/USD | `0.71819` | — | — | — | — |
+| 🇺🇸🇨🇦 USD/CAD | `1.36348` | — | — | — | — |
+| 🇳🇿🇺🇸 NZD/USD | `0.59173` | — | — | — | — |
+| 🇪🇺🇬🇧 EUR/GBP | `0.86983` | — | — | — | — |
 | 🇪🇺🇯🇵 EUR/JPY | — | — | — | — | — |
 | 🇬🇧🇯🇵 GBP/JPY | — | — | — | — | — |
 | 🇦🇺🇯🇵 AUD/JPY | — | — | — | — | — |
