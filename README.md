@@ -1,8 +1,8 @@
 # 📊 Live Forex Dashboard — Auto-Updated 2x Daily
 
-> 🤖 Auto-committed by GitHub Actions • Last updated: **2026-05-03 14:08 UTC** (2026-05-03 07:38 PM IST)
+> 🤖 Auto-committed by GitHub Actions • Last updated: **2026-05-04 10:08 UTC** (2026-05-04 03:38 PM IST)
 >
-> 🔄 Run ID: `20260503140816` — _(guarantees daily commit streak)_
+> 🔄 Run ID: `20260504100805` — _(guarantees daily commit streak)_
 >
 > *"Markets are never wrong — opinions often are."* — Jesse Livermore
 
@@ -12,10 +12,10 @@
 
 | Session | Hours (UTC) | Local Time | Status |
 |---------|-------------|------------|--------|
-| 🗼 Tokyo | 00:00 – 09:00 UTC | 11:08 PM | 🔴 Closed |
-| 🇬🇧 London | 08:00 – 17:00 UTC | 03:08 PM | 🟢 **OPEN** |
-| 🇺🇸 New York | 13:00 – 22:00 UTC | 10:08 AM | 🟢 **OPEN** |
-| 🇦🇺 Sydney | 22:00 – 07:00 UTC | 12:08 AM | 🔴 Closed |
+| 🗼 Tokyo | 00:00 – 09:00 UTC | 07:08 PM | 🔴 Closed |
+| 🇬🇧 London | 08:00 – 17:00 UTC | 11:08 AM | 🟢 **OPEN** |
+| 🇺🇸 New York | 13:00 – 22:00 UTC | 06:08 AM | 🔴 Closed |
+| 🇦🇺 Sydney | 22:00 – 07:00 UTC | 08:08 PM | 🔴 Closed |
 
 
 ## 🔥 Best Times to Trade (Session Overlaps)
@@ -33,18 +33,18 @@
 
 | Pair | Price | Day High | Day Low | Change | Sentiment |
 |------|-------|----------|---------|--------|-----------|
-| 🇪🇺🇺🇸 EUR/USD | `1.17210` | — | — | — | — |
-| 🇬🇧🇺🇸 GBP/USD | `1.35742` | — | — | — | — |
-| 🇺🇸🇯🇵 USD/JPY | `157.02` | — | — | — | — |
-| 🇺🇸🇨🇭 USD/CHF | `0.78208` | — | — | — | — |
-| 🇦🇺🇺🇸 AUD/USD | `0.71997` | — | — | — | — |
-| 🇺🇸🇨🇦 USD/CAD | `1.35904` | — | — | — | — |
-| 🇳🇿🇺🇸 NZD/USD | `0.58987` | — | — | — | — |
-| 🇪🇺🇬🇧 EUR/GBP | `0.86347` | — | — | — | — |
-| 🇪🇺🇯🇵 EUR/JPY | — | — | — | — | — |
-| 🇬🇧🇯🇵 GBP/JPY | — | — | — | — | — |
-| 🇦🇺🇯🇵 AUD/JPY | — | — | — | — | — |
-| 🇪🇺🇦🇺 EUR/AUD | — | — | — | — | — |
+| 🇪🇺🇺🇸 EUR/USD | `1.17082` | — | — | — | — |
+| 🇬🇧🇺🇸 GBP/USD | `1.35448` | — | — | — | — |
+| 🇺🇸🇯🇵 USD/JPY | `157.08` | — | — | — | — |
+| 🇺🇸🇨🇭 USD/CHF | `0.78383` | — | — | — | — |
+| 🇦🇺🇺🇸 AUD/USD | `0.71834` | 0.72202 | 0.71819 | 📉 -0.37% | 🔴 Bearish |
+| 🇺🇸🇨🇦 USD/CAD | `1.36088` | 1.36091 | 1.35756 | 📈 +0.14% | 🟢 Bullish |
+| 🇳🇿🇺🇸 NZD/USD | `0.58893` | 0.59270 | 0.58878 | 📉 -0.15% | 🔴 Bearish |
+| 🇪🇺🇬🇧 EUR/GBP | `0.86438` | 0.86480 | 0.86296 | 📈 +0.05% | ⚪ Neutral |
+| 🇪🇺🇯🇵 EUR/JPY | `183.92` | 184.46 | 182.98 | 📉 -0.15% | 🔴 Bearish |
+| 🇬🇧🇯🇵 GBP/JPY | `212.78` | 214.32 | 211.97 | 📉 -0.18% | 🔴 Bearish |
+| 🇦🇺🇯🇵 AUD/JPY | `112.83` | 113.61 | 112.45 | 📉 -0.26% | 🔴 Bearish |
+| 🇪🇺🇦🇺 EUR/AUD | `1.63005` | 1.63061 | 1.62545 | 📈 +0.11% | 🟢 Bullish |
 | 🇬🇧🇦🇺 GBP/AUD | — | — | — | — | — |
 | 🇪🇺🇨🇦 EUR/CAD | — | — | — | — | — |
 | 🇺🇸🇹🇷 USD/TRY | — | — | — | — | — |
