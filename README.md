@@ -1,8 +1,8 @@
 # 📊 Live Forex Dashboard — Auto-Updated 2x Daily
 
-> 🤖 Auto-committed by GitHub Actions • Last updated: **2026-05-31 10:08 UTC** (2026-05-31 03:38 PM IST)
+> 🤖 Auto-committed by GitHub Actions • Last updated: **2026-05-31 14:26 UTC** (2026-05-31 07:56 PM IST)
 >
-> 🔄 Run ID: `20260531100845` — _(guarantees daily commit streak)_
+> 🔄 Run ID: `20260531142636` — _(guarantees daily commit streak)_
 >
 > *"Markets are never wrong — opinions often are."* — Jesse Livermore
 
@@ -12,10 +12,10 @@
 
 | Session | Hours (UTC) | Local Time | Status |
 |---------|-------------|------------|--------|
-| 🗼 Tokyo | 00:00 – 09:00 UTC | 07:08 PM | 🔴 Closed |
-| 🇬🇧 London | 08:00 – 17:00 UTC | 11:08 AM | 🟢 **OPEN** |
-| 🇺🇸 New York | 13:00 – 22:00 UTC | 06:08 AM | 🔴 Closed |
-| 🇦🇺 Sydney | 22:00 – 07:00 UTC | 08:08 PM | 🔴 Closed |
+| 🗼 Tokyo | 00:00 – 09:00 UTC | 11:26 PM | 🔴 Closed |
+| 🇬🇧 London | 08:00 – 17:00 UTC | 03:26 PM | 🟢 **OPEN** |
+| 🇺🇸 New York | 13:00 – 22:00 UTC | 10:26 AM | 🟢 **OPEN** |
+| 🇦🇺 Sydney | 22:00 – 07:00 UTC | 12:26 AM | 🔴 Closed |
 
 
 ## 🔥 Best Times to Trade (Session Overlaps)
@@ -33,14 +33,14 @@
 
 | Pair | Price | Day High | Day Low | Change | Sentiment |
 |------|-------|----------|---------|--------|-----------|
-| 🇪🇺🇺🇸 EUR/USD | `1.16591` | — | — | — | — |
-| 🇬🇧🇺🇸 GBP/USD | `1.34566` | — | — | — | — |
-| 🇺🇸🇯🇵 USD/JPY | `159.29` | — | — | — | — |
-| 🇺🇸🇨🇭 USD/CHF | `0.78094` | — | — | — | — |
-| 🇦🇺🇺🇸 AUD/USD | `0.71877` | — | — | — | — |
-| 🇺🇸🇨🇦 USD/CAD | `1.37962` | — | — | — | — |
+| 🇪🇺🇺🇸 EUR/USD | `1.16602` | — | — | — | — |
+| 🇬🇧🇺🇸 GBP/USD | `1.34571` | — | — | — | — |
+| 🇺🇸🇯🇵 USD/JPY | `159.28` | — | — | — | — |
+| 🇺🇸🇨🇭 USD/CHF | `0.78100` | — | — | — | — |
+| 🇦🇺🇺🇸 AUD/USD | `0.71848` | — | — | — | — |
+| 🇺🇸🇨🇦 USD/CAD | `1.37958` | — | — | — | — |
 | 🇳🇿🇺🇸 NZD/USD | `0.59880` | — | — | — | — |
-| 🇪🇺🇬🇧 EUR/GBP | `0.86642` | — | — | — | — |
+| 🇪🇺🇬🇧 EUR/GBP | `0.86647` | — | — | — | — |
 | 🇪🇺🇯🇵 EUR/JPY | — | — | — | — | — |
 | 🇬🇧🇯🇵 GBP/JPY | — | — | — | — | — |
 | 🇦🇺🇯🇵 AUD/JPY | — | — | — | — | — |
