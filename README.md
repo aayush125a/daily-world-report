@@ -1,8 +1,8 @@
 # 📊 Live Forex Dashboard — Auto-Updated 2x Daily
 
-> 🤖 Auto-committed by GitHub Actions • Last updated: **2026-08-30 17:06 UTC** (2026-08-30 10:36 PM IST)
+> 🤖 Auto-committed by GitHub Actions • Last updated: **2026-08-31 15:43 UTC** (2026-08-31 09:13 PM IST)
 >
-> 🔄 Run ID: `20260830170624` — _(guarantees daily commit streak)_
+> 🔄 Run ID: `20260831154324` — _(guarantees daily commit streak)_
 >
 > *"Markets are never wrong — opinions often are."* — Jesse Livermore
 
@@ -12,10 +12,10 @@
 
 | Session | Hours (UTC) | Local Time | Status |
 |---------|-------------|------------|--------|
-| 🗼 Tokyo | 00:00 – 09:00 UTC | 02:06 AM | 🔴 Closed |
-| 🇬🇧 London | 08:00 – 17:00 UTC | 06:06 PM | 🔴 Closed |
-| 🇺🇸 New York | 13:00 – 22:00 UTC | 01:06 PM | 🟢 **OPEN** |
-| 🇦🇺 Sydney | 22:00 – 07:00 UTC | 03:06 AM | 🔴 Closed |
+| 🗼 Tokyo | 00:00 – 09:00 UTC | 12:43 AM | 🔴 Closed |
+| 🇬🇧 London | 08:00 – 17:00 UTC | 04:43 PM | 🟢 **OPEN** |
+| 🇺🇸 New York | 13:00 – 22:00 UTC | 11:43 AM | 🟢 **OPEN** |
+| 🇦🇺 Sydney | 22:00 – 07:00 UTC | 01:43 AM | 🔴 Closed |
 
 
 ## 🔥 Best Times to Trade (Session Overlaps)
@@ -33,19 +33,19 @@
 
 | Pair | Price | Day High | Day Low | Change | Sentiment |
 |------|-------|----------|---------|--------|-----------|
-| 🇪🇺🇺🇸 EUR/USD | `1.15749` | — | — | — | — |
-| 🇬🇧🇺🇸 GBP/USD | `1.35389` | — | — | — | — |
-| 🇺🇸🇯🇵 USD/JPY | `160.09` | — | — | — | — |
-| 🇺🇸🇨🇭 USD/CHF | `0.80842` | — | — | — | — |
-| 🇦🇺🇺🇸 AUD/USD | `0.71613` | — | — | — | — |
-| 🇺🇸🇨🇦 USD/CAD | `1.39028` | — | — | — | — |
-| 🇳🇿🇺🇸 NZD/USD | `0.59136` | — | — | — | — |
-| 🇪🇺🇬🇧 EUR/GBP | `0.85493` | — | — | — | — |
-| 🇪🇺🇯🇵 EUR/JPY | — | — | — | — | — |
-| 🇬🇧🇯🇵 GBP/JPY | — | — | — | — | — |
-| 🇦🇺🇯🇵 AUD/JPY | — | — | — | — | — |
-| 🇪🇺🇦🇺 EUR/AUD | — | — | — | — | — |
-| 🇬🇧🇦🇺 GBP/AUD | — | — | — | — | — |
+| 🇪🇺🇺🇸 EUR/USD | `1.16190` | — | — | — | — |
+| 🇬🇧🇺🇸 GBP/USD | `1.35511` | — | — | — | — |
+| 🇺🇸🇯🇵 USD/JPY | `159.73` | — | — | — | — |
+| 🇺🇸🇨🇭 USD/CHF | `0.80843` | — | — | — | — |
+| 🇦🇺🇺🇸 AUD/USD | `0.71659` | — | — | — | — |
+| 🇺🇸🇨🇦 USD/CAD | `1.38624` | — | — | — | — |
+| 🇳🇿🇺🇸 NZD/USD | `0.59149` | — | — | — | — |
+| 🇪🇺🇬🇧 EUR/GBP | `0.85742` | — | — | — | — |
+| 🇪🇺🇯🇵 EUR/JPY | `185.59` | — | — | — | — |
+| 🇬🇧🇯🇵 GBP/JPY | `216.45` | — | — | — | — |
+| 🇦🇺🇯🇵 AUD/JPY | `114.47` | — | — | — | — |
+| 🇪🇺🇦🇺 EUR/AUD | `1.62140` | — | — | — | — |
+| 🇬🇧🇦🇺 GBP/AUD | `1.89103` | — | — | — | — |
 | 🇪🇺🇨🇦 EUR/CAD | — | — | — | — | — |
 | 🇺🇸🇹🇷 USD/TRY | — | — | — | — | — |
 | 🇺🇸🇿🇦 USD/ZAR | — | — | — | — | — |
