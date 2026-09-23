@@ -1,8 +1,8 @@
 # 📊 Live Forex Dashboard — Auto-Updated 2x Daily
 
-> 🤖 Auto-committed by GitHub Actions • Last updated: **2026-09-22 17:27 UTC** (2026-09-22 10:57 PM IST)
+> 🤖 Auto-committed by GitHub Actions • Last updated: **2026-09-23 13:11 UTC** (2026-09-23 06:41 PM IST)
 >
-> 🔄 Run ID: `20260922172750` — _(guarantees daily commit streak)_
+> 🔄 Run ID: `20260923131105` — _(guarantees daily commit streak)_
 >
 > *"Markets are never wrong — opinions often are."* — Jesse Livermore
 
@@ -12,10 +12,10 @@
 
 | Session | Hours (UTC) | Local Time | Status |
 |---------|-------------|------------|--------|
-| 🗼 Tokyo | 00:00 – 09:00 UTC | 02:27 AM | 🔴 Closed |
-| 🇬🇧 London | 08:00 – 17:00 UTC | 06:27 PM | 🔴 Closed |
-| 🇺🇸 New York | 13:00 – 22:00 UTC | 01:27 PM | 🟢 **OPEN** |
-| 🇦🇺 Sydney | 22:00 – 07:00 UTC | 03:27 AM | 🔴 Closed |
+| 🗼 Tokyo | 00:00 – 09:00 UTC | 10:11 PM | 🔴 Closed |
+| 🇬🇧 London | 08:00 – 17:00 UTC | 02:11 PM | 🟢 **OPEN** |
+| 🇺🇸 New York | 13:00 – 22:00 UTC | 09:11 AM | 🟢 **OPEN** |
+| 🇦🇺 Sydney | 22:00 – 07:00 UTC | 11:11 PM | 🔴 Closed |
 
 
 ## 🔥 Best Times to Trade (Session Overlaps)
@@ -33,14 +33,14 @@
 
 | Pair | Price | Day High | Day Low | Change | Sentiment |
 |------|-------|----------|---------|--------|-----------|
-| 🇪🇺🇺🇸 EUR/USD | `1.14311` | — | — | — | — |
-| 🇬🇧🇺🇸 GBP/USD | `1.33245` | — | — | — | — |
-| 🇺🇸🇯🇵 USD/JPY | `157.55` | — | — | — | — |
-| 🇺🇸🇨🇭 USD/CHF | `0.82207` | — | — | — | — |
-| 🇦🇺🇺🇸 AUD/USD | `0.71030` | — | — | — | — |
-| 🇺🇸🇨🇦 USD/CAD | `1.40816` | — | — | — | — |
-| 🇳🇿🇺🇸 NZD/USD | `0.57174` | — | — | — | — |
-| 🇪🇺🇬🇧 EUR/GBP | `0.85790` | — | — | — | — |
+| 🇪🇺🇺🇸 EUR/USD | `1.14048` | 1.14510 | 1.14003 | 📉 -0.39% | 🔴 Bearish |
+| 🇬🇧🇺🇸 GBP/USD | `1.32736` | 1.33483 | 1.32640 | 📉 -0.53% | 🔴 Bearish |
+| 🇺🇸🇯🇵 USD/JPY | `157.97` | 157.98 | 157.35 | 📈 +0.37% | 🟢 Bullish |
+| 🇺🇸🇨🇭 USD/CHF | `0.82357` | 0.82373 | 0.82018 | 📈 +0.37% | 🟢 Bullish |
+| 🇦🇺🇺🇸 AUD/USD | `0.70617` | 0.71188 | 0.70606 | 📉 -0.75% | 🔴 Bearish |
+| 🇺🇸🇨🇦 USD/CAD | `1.40902` | 1.40949 | 1.40570 | 📈 +0.18% | 🟢 Bullish |
+| 🇳🇿🇺🇸 NZD/USD | `0.56878` | 0.57321 | 0.56863 | 📉 -0.72% | 🔴 Bearish |
+| 🇪🇺🇬🇧 EUR/GBP | `0.85905` | — | — | — | — |
 | 🇪🇺🇯🇵 EUR/JPY | — | — | — | — | — |
 | 🇬🇧🇯🇵 GBP/JPY | — | — | — | — | — |
 | 🇦🇺🇯🇵 AUD/JPY | — | — | — | — | — |
