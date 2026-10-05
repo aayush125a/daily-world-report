@@ -1,8 +1,8 @@
 # 📊 Live Forex Dashboard — Auto-Updated 2x Daily
 
-> 🤖 Auto-committed by GitHub Actions • Last updated: **2026-10-04 17:13 UTC** (2026-10-04 10:43 PM IST)
+> 🤖 Auto-committed by GitHub Actions • Last updated: **2026-10-05 16:39 UTC** (2026-10-05 10:09 PM IST)
 >
-> 🔄 Run ID: `20261004171302` — _(guarantees daily commit streak)_
+> 🔄 Run ID: `20261005163931` — _(guarantees daily commit streak)_
 >
 > *"Markets are never wrong — opinions often are."* — Jesse Livermore
 
@@ -12,10 +12,10 @@
 
 | Session | Hours (UTC) | Local Time | Status |
 |---------|-------------|------------|--------|
-| 🗼 Tokyo | 00:00 – 09:00 UTC | 02:13 AM | 🔴 Closed |
-| 🇬🇧 London | 08:00 – 17:00 UTC | 06:13 PM | 🔴 Closed |
-| 🇺🇸 New York | 13:00 – 22:00 UTC | 01:13 PM | 🟢 **OPEN** |
-| 🇦🇺 Sydney | 22:00 – 07:00 UTC | 04:13 AM | 🔴 Closed |
+| 🗼 Tokyo | 00:00 – 09:00 UTC | 01:39 AM | 🔴 Closed |
+| 🇬🇧 London | 08:00 – 17:00 UTC | 05:39 PM | 🟢 **OPEN** |
+| 🇺🇸 New York | 13:00 – 22:00 UTC | 12:39 PM | 🟢 **OPEN** |
+| 🇦🇺 Sydney | 22:00 – 07:00 UTC | 03:39 AM | 🔴 Closed |
 
 
 ## 🔥 Best Times to Trade (Session Overlaps)
@@ -33,14 +33,14 @@
 
 | Pair | Price | Day High | Day Low | Change | Sentiment |
 |------|-------|----------|---------|--------|-----------|
-| 🇪🇺🇺🇸 EUR/USD | `1.12535` | — | — | — | — |
-| 🇬🇧🇺🇸 GBP/USD | `1.32399` | — | — | — | — |
-| 🇺🇸🇯🇵 USD/JPY | `157.86` | — | — | — | — |
-| 🇺🇸🇨🇭 USD/CHF | `0.82898` | — | — | — | — |
-| 🇦🇺🇺🇸 AUD/USD | `0.69554` | — | — | — | — |
-| 🇺🇸🇨🇦 USD/CAD | `1.42501` | — | — | — | — |
-| 🇳🇿🇺🇸 NZD/USD | `0.56149` | — | — | — | — |
-| 🇪🇺🇬🇧 EUR/GBP | `0.84997` | — | — | — | — |
+| 🇪🇺🇺🇸 EUR/USD | `1.12045` | — | — | — | — |
+| 🇬🇧🇺🇸 GBP/USD | `1.32134` | — | — | — | — |
+| 🇺🇸🇯🇵 USD/JPY | `158.06` | — | — | — | — |
+| 🇺🇸🇨🇭 USD/CHF | `0.83193` | — | — | — | — |
+| 🇦🇺🇺🇸 AUD/USD | `0.69660` | — | — | — | — |
+| 🇺🇸🇨🇦 USD/CAD | `1.42568` | — | — | — | — |
+| 🇳🇿🇺🇸 NZD/USD | `0.55908` | — | — | — | — |
+| 🇪🇺🇬🇧 EUR/GBP | `0.84797` | — | — | — | — |
 | 🇪🇺🇯🇵 EUR/JPY | — | — | — | — | — |
 | 🇬🇧🇯🇵 GBP/JPY | — | — | — | — | — |
 | 🇦🇺🇯🇵 AUD/JPY | — | — | — | — | — |
@@ -54,7 +54,7 @@
 | 🇺🇸🇭🇰 USD/HKD | — | — | — | — | — |
 | 🇺🇸🇳🇴 USD/NOK | — | — | — | — | — |
 | 🇺🇸🇸🇪 USD/SEK | — | — | — | — | — |
-| 🥇🇺🇸 XAU/USD | `4137.51` | 4137.72 | 4137.47 | 📉 -0.00% | ⚪ Neutral |
+| 🥇🇺🇸 XAU/USD | — | — | — | — | — |
 | 🥈🇺🇸 XAG/USD | — | — | — | — | — |
 
 > 📡 Data sourced from [Twelve Data](https://twelvedata.com) • Prices update 2x daily at 08:00 & 13:00 UTC
